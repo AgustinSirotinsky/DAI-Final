@@ -1,18 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-//React
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
-//Routes
-import Home from './src/routes/Home';
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route index element={<Home />} />
-      </Routes>
-    </BrowserRouter>
+    <View style={styles.container}>
+      <Text>Open up App.js to start working on your app!</Text>
+      <StatusBar style="auto" />
+    </View>
   );
 }
 
